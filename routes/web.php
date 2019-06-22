@@ -18,3 +18,11 @@ Route::get('/', function () {
 Route::get('/dashboard', function () {
     return view('dashboard');
 });
+
+Route::get('/form_login', function () {
+    return view('form_login');
+});
+
+Route::get('/form_register', function () {
+    return view('form_register');
+});
